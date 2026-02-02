@@ -71,6 +71,33 @@ movie-analytics-dashboard/
 │   └── movies_cleaned.csv     # Cleaned dataset used in the app
 │
 └── README.md
+```
+▶️ How to Run the Project Locally
 
-**👤 Author**
-** Dheeraj Rai **
+1️⃣ Install dependencies
+pip install -r required.txt
+
+2️⃣ Run the Streamlit app
+streamlit run app.py
+
+## 📊 Dataset Information
+
+- Dataset Name: **Millions of Movies**
+- Source: Kaggle  
+- Link: https://www.kaggle.com/datasets/akshaypawar7/millions-of-movies
+
+The dataset contains extensive movie metadata, including:
+- Movie titles
+- Release years
+- Genres
+- Cast information
+- Languages
+- Ratings and vote counts
+
+> ⚠️ Note:  
+> The original raw dataset is not included in this repository due to GitHub file size limitations.  
+> A cleaned and processed version (`movies_cleaned.csv`) is used for analysis and is included in the project.
+
+
+<h5>👤 Author
+Dheeraj Rai </h5>
