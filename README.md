@@ -1,171 +1,76 @@
-🎬 Movie Analytics Dashboard
+# 🎬 Movie Analytics Dashboard
 
-An interactive movie analytics application built using Python, Pandas, and Streamlit.
-This project enables users to explore and analyze movie data through filters, rankings, trends, and search functionality.
+An interactive **movie analytics dashboard** built using **Python, Pandas, and Streamlit**.  
+This application enables users to explore, filter, and analyze movie data through an intuitive and visually rich interface.
 
-This project was developed as a college major project with a focus on:
+> 📌 **Academic Project**  
+> Developed as a college major project with a focus on data analysis, visualization, and clean project structuring.
 
-Data analysis
+---
 
-Dashboard design
+## 📊 Project Overview
 
-Python project structuring
+The **Movie Analytics Dashboard** helps uncover meaningful insights from movie data, such as:
 
-Interactive visualizations
+- 📈 Rating trends over time  
+- 🎭 Top-rated genres and actors  
+- ⭐ High-performing movies  
+- 🔍 Search-based and filter-based exploration  
 
-📌 Project Objective
+The goal of this project is to demonstrate **analytical thinking, dashboard design, and Python proficiency**, rather than production deployment.
 
-The goal of this project is to analyze a movie dataset and present meaningful insights such as:
+---
 
-Rating trends over time
+## ✨ Key Features
 
-Top-rated genres and actors
+### 🔍 Smart Search
+- Search movies by **title** or **actor name**
+- Results are sorted by rating for relevance
 
-High-performing movies
+### 🎛️ Interactive Filters
+- Year range slider  
+- Minimum rating filter  
+- Minimum vote count filter  
+- Genre selection  
+- Language selection  
 
-Filtered and search-based exploration
+### 📑 Dashboard Tabs
+- **📊 Overview** – KPIs, trends, and rating distributions  
+- **🎭 Top Genres** – Highest-rated genres (with thresholds)  
+- **🌟 Top Actors** – Actors ranked by average ratings  
+- **🎥 Top Movies** – Top 50 movies by rating  
+- **📈 Deep Dive** – Genre- and actor-specific analysis  
+- **📄 Data View** – Filtered raw dataset  
 
-The project emphasizes analytical thinking and usability, not production deployment.
+---
 
-✨ Features
-🔍 Search
+## 🧠 Tech Stack
 
-Search movies by title or actor name
+- **Python**
+- **Pandas** – Data analysis & manipulation  
+- **Streamlit** – Interactive dashboard  
+- **Plotly** – Data visualization  
+- **NumPy**
 
-Displays top results sorted by rating
+---
 
-🎛️ Filters
+## 📁 Project Structure
 
-Year range selection
-
-Minimum rating filter
-
-Minimum vote count filter
-
-Genre filter
-
-Language filter
-
-📊 Dashboard Sections
-
-Overview
-
-Total movies
-
-Average & median ratings
-
-Year range
-
-Production trend by year
-
-Rating distribution
-
-Top Genres
-
-Highest-rated genres (with minimum movie threshold)
-
-Top Actors
-
-Highest-rated actors based on average rating
-
-Top Movies
-
-Top 50 movies by rating
-
-Deep Dive
-
-Genre-specific and actor-specific analysis
-
-Data View
-
-View filtered raw dataset
-
-🧠 Technologies Used
-
-Python
-
-Pandas – data cleaning & analysis
-
-Streamlit – interactive dashboard
-
-Plotly – charts and visualizations
-
-NumPy
-
-📁 Project Structure
-MOVIE/
+```text
+movie-analytics-dashboard/
 │
 ├── app.py                     # Main Streamlit application
 ├── required.txt               # Project dependencies
 ├── final_movies.ipynb         # Data cleaning & preprocessing notebook
 │
 ├── src/
-│   ├── analytics.py           # MovieAnalyzer class (core analysis logic)
+│   ├── analytics.py           # Core analytics logic
 │   └── data_loader.py         # Dataset loading logic
 │
 ├── data/
-│   ├── movies.csv             # Original dataset
 │   └── movies_cleaned.csv     # Cleaned dataset used in the app
 │
-├── .gitignore
-└── .ipynb_checkpoints/
+└── README.md
 
-▶️ How to Run the Project Locally
-1️⃣ Clone the repository
-git clone https://github.com/your-username/movie-analytics-dashboard.git
-cd MOVIE
-
-2️⃣ Install dependencies
-pip install -r required.txt
-
-3️⃣ Run the Streamlit app
-streamlit run app.py
-
-
-The application will open in your browser at:
-
-http://localhost:8501
-
-📊 Dataset Information
-
-The dataset contains movie metadata such as:
-
-Title
-
-Release year
-
-Genres
-
-Cast
-
-Language
-
-Ratings
-
-Vote counts
-
-movies.csv is the original dataset
-
-movies_cleaned.csv is the cleaned and processed dataset used by the app
-
-🎓 Academic Context
-
-Developed as a college major project
-
-Focus areas:
-
-Data analysis using Pandas
-
-Interactive dashboards with Streamlit
-
-Filtering and aggregation logic
-
-Clean and modular project structure
-
-Deployment was not required for academic evaluation.
-
-
-
-👤 Author
-
-Dheeraj Rai
+**👤 Author**
+** Dheeraj Rai **
